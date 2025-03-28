@@ -1,14 +1,14 @@
 import axios from "axios";
-import { useMyAuthStore } from "~/stores/authStore";
+import { useAuthStore } from "~/stores/authStore";
 
 export const useApi = () => {
-  const baseURL = "http://localhost:3000";
-  const authStore = useMyAuthStore();
+    const baseURL = "http://localhost:3000";
+    const authStore = useAuthStore();
 
-  return axios.create({
-    baseURL,
-    headers: {
-      Authorization: `Token ${authStore.token}`,
-    },
-  });
+    return axios.create({
+        baseURL,
+        headers: {
+            Authorization: `Token ${authStore.token}`,
+        },
+    });
 };

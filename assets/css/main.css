@@ -1,264 +1,92 @@
-.ravena-background-1 {
-  background: white !important;
+.background-1 {
+    background: #0e0e0e !important;
 }
 
-.ravena-background-2 {
-  background: #6bbcca !important;
-  background: linear-gradient(160deg, #6bbcca 50%, #14485c 100%);
+.primary {
+    background: #232b2b !important;
 }
 
-.ravena-background-3 {
-  background-color: #f8f4ff !important;
+.secondary {
+    background: #d4af37 !important;
 }
 
-.ravena-background-4 {
-  background-color: #293241 !important;
-}
-.ravena-background-4s {
-  background: linear-gradient(180deg, #293241, #3e4a5a, #586c7f, #728fa3);
-}
-
-.ravena-background-5 {
-  background-color: #a9a9a9a9 !important;
-}
-
-.ravena-background-6 {
-  background-color: #af876a !important;
-}
-
-.ravena-primary {
-  background: #104666 !important;
-}
-
-.ravena-secondary {
-  background: #4dacbf !important;
-}
-
-.ravena-tertiary {
-  background: #e2f1f4 !important;
-}
-
-.ravena-quartenary {
-  background: #14485c !important;
-}
-
-.ravena-quinary {
-  background: #6bbcca !important;
-}
-
-.ravena-senary {
-  background: #cfeaf4 !important;
+.tertiary {
+    background: #414a4c !important;
 }
 
 .custom-links {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: #f5c842;
 }
 
 .activeLink {
-  /* color: #5A9F68; */
-  color: #4dacbf;
+    color: #ffd700;
 }
-
-.ravena-login {
-  margin-top: 150px;
-  border-radius: 20px !important;
-}
-
-.ravena-login img {
-  width: 70%;
-}
-
-.ravena-login form {
-  padding: 30px;
-}
-
-.ravena-login .logo {
-  margin-bottom: 20px;
-}
-
-.ravena-footer img {
-  /* margin-top: 5px; width: 100px */
-  height: 20px;
-}
-
-.ravena-version {
-  font-size: 10px;
-}
-
-.background-login-1 {
-  background: #104666 url("/backgrounds/background-v-min.png") left no-repeat;
-  background-size: cover;
-}
-
-.background-login-2 {
-  background: #104666 url("/backgrounds/background-2.jpg") left no-repeat;
-  background-size: cover;
-}
-
-.background-main {
-  background: url("/backgrounds/background-one.png") left no-repeat;
-  background-size: cover;
-}
-
-.menu-left .v-list-group__items .v-list-item {
-  padding-inline-start: 20px !important;
-}
-
-.menu-left .v-list-item .v-list-item_prepend .v-list-item_spacer {
-  width: 15px !important;
-}
-
-.menu-left
-  .v-list-group__items
-  .v-list-group
-  .v-list-group__items
-  .v-list-item {
-  padding-inline-start: 30px !important;
-}
-
-tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-table th + th {
-  border-left: 0.5px solid #e3e3e3;
-}
-
-table td + td {
-  border-left: 0.5px solid #e3e3e3;
-}
-
-.v-data-table-header th {
-  white-space: nowrap;
-}
-
-.v-application--wrap {
-  height: 100vh !important;
-}
-
-/* width */
-.ravena-scroll ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-
-/* Track */
-.ravena-scroll ::-webkit-scrollbar-track {
-  background: #0a3853;
-}
-
-/* Handle */
-.ravena-scroll ::-webkit-scrollbar-thumb {
-  background: #2d8da1;
-}
-
-/* Handle on hover */
-.ravena-scroll ::-webkit-scrollbar-thumb:hover {
-  background: #06839c;
-}
-
-.card-sidebar-app {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow-y: auto;
-}
-
-.notificationContainer {
-  position: fixed;
-  top: 10%;
-  right: 7%;
-  display: grid;
-  grid-gap: 0.5em;
-  z-index: 99;
-}
-
-/*
-html,
-body,
-#app {
-  margin: 0;
-  height: 100%;
-}
-
-#app {
-  text-transform: uppercase;
-  font-family: 'JetBrains Mono', monospace;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-*/
 
 .vue-flow__minimap {
-  transform: scale(75%);
-  transform-origin: bottom right;
+    transform: scale(75%);
+    transform-origin: bottom right;
 }
 
 .basicflow.dark {
-  background: #000000;
-  color: #fffffb;
+    background: #000000;
+    color: #fffffb;
 }
 
 .basicflow.dark .vue-flow__node {
-  background: hsl(0, 0%, 10%);
-  color: #fffffb;
+    background: hsl(0, 0%, 10%);
+    color: #fffffb;
 }
 
 .basicflow.dark .vue-flow__node.selected {
-  background: hsl(0, 0%, 20%);
-  border: 1px solid hotpink;
+    background: hsl(0, 0%, 20%);
+    border: 1px solid hotpink;
 }
 
 .basicflow .vue-flow__controls {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .basicflow.dark .vue-flow__controls {
-  border: 1px solid #fffffb;
+    border: 1px solid #fffffb;
 }
 
 .basicflow .vue-flow_controls .vue-flow_controls-button {
-  border: none;
-  border-right: 1px solid #eee;
+    border: none;
+    border-right: 1px solid #eee;
 }
 
 .basicflow.dark .vue-flow_controls .vue-flow_controls-button {
-  background: hsl(0, 0%, 20%);
-  fill: #fffffb;
-  border: none;
+    background: hsl(0, 0%, 20%);
+    fill: #fffffb;
+    border: none;
 }
 
 .basicflow.dark .vue-flow_controls .vue-flow_controls-button:hover {
-  background: hsl(0, 0%, 30%);
+    background: hsl(0, 0%, 30%);
 }
 
 .basicflow.dark .vue-flow__edge-textbg {
-  fill: #292524;
+    fill: #292524;
 }
 
 .basicflow.dark .vue-flow__edge-text {
-  fill: #fffffb;
+    fill: #fffffb;
 }
 
 .tiptap {
-  max-width: 700px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background-color: #fff;
-  outline: none;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    outline: none;
 }
 
 .tiptap p {
-  line-height: 1.6;
-  margin: 1rem 0;
+    line-height: 1.6;
+    margin: 1rem 0;
 }
 
 .tiptap h1,
@@ -267,114 +95,143 @@ body,
 .tiptap h4,
 .tiptap h5,
 .tiptap h6 {
-  margin: 1.5rem 0 1rem;
-  font-weight: bold;
+    margin: 1.5rem 0 1rem;
+    font-weight: bold;
 }
 
 .tiptap h1 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .tiptap h2 {
-  font-size: 1.75rem;
+    font-size: 1.75rem;
 }
 
 .tiptap h3 {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .tiptap h4 {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .tiptap h5 {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .tiptap h6 {
-  font-size: 0.875rem;
+    font-size: 0.875rem;
 }
 
 .tiptap ul {
-  list-style: disc;
-  padding-left: 1.5rem;
-  margin: 1rem 0;
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
 }
 
 .tiptap ul li {
-  margin-bottom: 0.5rem;
-  line-height: 1.6;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
 }
 
 .tiptap ol {
-  list-style: decimal;
-  padding-left: 1.5rem;
-  margin: 1rem 0;
+    list-style: decimal;
+    padding-left: 1.5rem;
+    margin: 1rem 0;
 }
 
 .tiptap blockquote {
-  border-left: 4px solid #ccc;
-  padding-left: 1rem;
-  color: #666;
-  font-style: italic;
-  margin: 1rem 0;
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    color: #666;
+    font-style: italic;
+    margin: 1rem 0;
 }
 
 .tiptap ul,
 .tiptap ol {
-  margin: 1rem 0 1rem 2rem;
+    margin: 1rem 0 1rem 2rem;
 }
 
 .tiptap li {
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .tiptap p code {
-  color: rgb(231, 41, 161);
-  background: #fcf8f8;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 14px;
+    color: rgb(231, 41, 161);
+    background: #fcf8f8;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 .tiptap pre {
-  background-color: #fcf8f8cc;
-  border-radius: 6px;
-  margin: 1em 0;
-  padding: 10px;
-  overflow: hidden;
+    background-color: #fcf8f8cc;
+    border-radius: 6px;
+    margin: 1em 0;
+    padding: 10px;
+    overflow: hidden;
 }
 
 .tiptap pre code {
-  display: block;
-  padding: 1em;
-  overflow-x: auto;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 0.9em;
-  line-height: 1.5;
-  color: #24292e;
+    display: block;
+    padding: 1em;
+    overflow-x: auto;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #24292e;
 }
 
 .tiptap hr {
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 2rem 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2rem 0;
 }
 
 .tiptap img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-  margin: 1rem 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 1rem 0;
 }
 
 .tiptap a {
-  color: #3498db;
-  text-decoration: none;
+    color: #3498db;
+    text-decoration: none;
 }
 
 .tiptap a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* Syntax highlighting code will go here */
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #1a1a1a; /* dark smooth black */
+}
+
+*::-webkit-scrollbar-track:hover {
+    background-color: #2a2a2a; /* slightly lighter on hover */
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: #2a2a2a;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #d4af37; /* gold */
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #e3c663; /* lighter gold on hover */
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: #f0d878; /* even lighter gold when active */
+}
