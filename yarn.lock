@@ -6504,10 +6504,10 @@ type-fest@^4.18.2, type-fest@^4.7.1:
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-4.28.1.tgz"
   integrity sha512-LO/+yb3mf46YqfUC7QkkoAlpa7CTYh//V1Xy9+NQ+pKqDqXIq0NTfPfQRwFfCt+if4Qkwb9gzZfsl6E5TkXZGw==
 
-typescript@*, typescript@^5.x, typescript@>=4.4.4, typescript@>=4.7:
-  version "5.7.2"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-5.7.2.tgz"
-  integrity sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==
+typescript@*, typescript@^5.8.2, typescript@^5.x, typescript@>=4.4.4, typescript@>=4.7:
+  version "5.8.2"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-5.8.2.tgz"
+  integrity sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==
 
 uc.micro@^2.0.0, uc.micro@^2.1.0:
   version "2.1.0"
