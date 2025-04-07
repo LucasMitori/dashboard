@@ -45,7 +45,11 @@ export default defineNuxtConfig({
         },
     },
     runtimeConfig: {
-        MONGODB_URI: process.env.MONGODB_URI as string,
+        MONGODB_URI: process.env.MONGODB_URI || "mongodb://localhost:27017/dev",
+        apiSecret: process.env.API_SECRET,
+        public: {
+            API_URL: process.env.API_URL || "http://localhost:3000",
+        },
     },
     nitro: {
         plugins: ["~/server/plugins/mongoose.ts"],

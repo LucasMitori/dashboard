@@ -2,7 +2,8 @@ import axios from "axios";
 import { useAuthStore } from "~/stores/authStore";
 
 export const useApi = () => {
-    const baseURL = "http://localhost:3000";
+    const { public: publicRuntimeConfig } = useRuntimeConfig();
+    const baseURL = publicRuntimeConfig.API_URL;
     const authStore = useAuthStore();
 
     return axios.create({

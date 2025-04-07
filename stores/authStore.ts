@@ -11,19 +11,9 @@ export const useAuthStore = defineStore("authStore", {
     actions: {
         async login(username: string, password: string) {
             const api = useApi();
-
-            const apiUrl =
-                process.env.NODE_ENV === "production"
-                    ? "https://dashboard-orpin-omega-25.vercel.app/"
-                    : "http://localhost:3000";
-
-            const response = await api({
-                method: "post",
-                url: `${apiUrl}/api/login/`,
-                data: {
-                    username: username,
-                    password: password,
-                },
+            const response = await api.post("/api/login/", {
+                username,
+                password,
             });
 
             if (!response) {
@@ -31,18 +21,14 @@ export const useAuthStore = defineStore("authStore", {
             }
 
             this.token = response.data.token;
-
             const tokenCookie = useCookie("token", {
                 maxAge: 60 * 24 * 28,
                 sameSite: true,
                 secure: true,
             });
-
             tokenCookie.value = response.data.token;
-
             this.isAuthenticated = true;
-
-            await navigateTo(this.redirectTo || "/");
+            await navigateTo(this.redirectTo || "/dashboard");
         },
         async logout() {
             const api = useApi();
