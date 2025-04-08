@@ -47,8 +47,6 @@ export const useAuthStore = defineStore("authStore", {
             } catch (error) {
                 console.error("Logout error:", error);
             }
-
-            // Clear cookies safely
             const userCookie = useCookie("user");
             const tokenCookie = useCookie("token");
 
@@ -58,7 +56,6 @@ export const useAuthStore = defineStore("authStore", {
             this.token = null;
             this.isAuthenticated = false;
 
-            // Redirect properly using `navigateTo`
             // navigateTo("/login");
         },
     },
